@@ -1,0 +1,6 @@
+node_modules/
+.qodo/
+build/
+tmp/
+temp/
+dist/

@@ -4,7 +4,7 @@ import endpoints from './endpoints';
 import { logToFile } from './logger';
 import { incrementCallCount, recordBlock, resetCountersIfNeeded } from './tracker';
 
-const INTERVAL_MS: number = 30 * 1000; 
+const INTERVAL_MS: number =  3 * 60 * 1000; 
 
 interface BlockEvent {
   endpoint: string;

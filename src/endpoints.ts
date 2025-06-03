@@ -7,11 +7,11 @@ interface Endpoint {
 }
 
 const endpoints: Endpoint[] = [
-  {
-    name: 'Tap Tap Send',
-    url: 'https://api.taptapsend.com/api/fxRates',
-    method: 'GET',
-  },
+  // {
+  //   name: 'Tap Tap Send',
+  //   url: 'https://api.taptapsend.com/api/fxRates',
+  //   method: 'GET',
+  // },
   {
     name: 'Lemfi',
     url: 'https://lemfi.com/api/lemonade/v2/exchange',
@@ -39,27 +39,27 @@ const endpoints: Endpoint[] = [
     url: 'https://fx-apis.moniepoint.com/marketing/api/v1/fx-rates?sourceCurrency=GBP&targetCurrency=NGN',
     method: 'GET',
   },
-  {
-    name: 'Ace Money Transfer',
-    url: 'https://acemoneytransfer.com/rate/calculator',
-    method: 'POST',
-    payload: {
-      'uri': 'rate/calculator',
-      'type': 'POST',
-      'data[src_amount]': '100',
-      'data[dest_amount]': '',
-      'data[calculate]': '1',
-      'data[user_currency]': 'GBP',
-      'data[calculation_mode]': 'S',
-      'data[dest_iso_numeric_code]': '566',
-      'data[src_iso_numeric_code]': '826',
-      'data[specific_payer_id]': '1199',
-      'auth': 'true',
-    },
-    headers: { 
-      'Content-Type': 'application/x-www-form-urlencoded',
-    },
-  },
+  // {
+  //   name: 'Ace Money Transfer',
+  //   url: 'https://acemoneytransfer.com/rate/calculator',
+  //   method: 'POST',
+  //   payload: {
+  //     'uri': 'rate/calculator',
+  //     'type': 'POST',
+  //     'data[src_amount]': '100',
+  //     'data[dest_amount]': '',
+  //     'data[calculate]': '1',
+  //     'data[user_currency]': 'GBP',
+  //     'data[calculation_mode]': 'S',
+  //     'data[dest_iso_numeric_code]': '566',
+  //     'data[src_iso_numeric_code]': '826',
+  //     'data[specific_payer_id]': '1199',
+  //     'auth': 'true',
+  //   },
+  //   headers: { 
+  //     'Content-Type': 'application/x-www-form-urlencoded',
+  //   },
+  // },
 ];
 
 export default endpoints;

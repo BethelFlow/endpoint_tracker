@@ -25,7 +25,7 @@ let callTracker: CallTracker = {
   blocks: [],
 };
 
-export function resetCountersIfNeeded(){
+export function resetCounters(){
   const today: string = moment().format('YYYY-MM-DD');
   const currentWeek: number = moment().week();
 
